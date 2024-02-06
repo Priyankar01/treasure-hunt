@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+body,
+html {
+	margin: 0px;
+	font-family: 'Protest Riot', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper {
+	background-image: url(./data/bg.png);
+	height: 100vh;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	padding-bottom: 8rem;
+}
+.heading {
+	margin: 0px;
+}
+.riddle {
+	width: 20rem;
+}
+.input-box {
+	background-color: #fff;
+	border: 1px solid #d5d9d9;
+	border-radius: 8px;
+	box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+	box-sizing: border-box;
+	color: #0f1111;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	padding: 0.3rem 0.7rem;
+	font-family: inherit;
+}
+.button-13 {
+	margin: 0.5rem;
+	background-color: #fff;
+	border: 1px solid #d5d9d9;
+	border-radius: 8px;
+	box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+	box-sizing: border-box;
+	color: #0f1111;
+	cursor: pointer;
+	display: inline-block;
+	font-family: inherit;
+	font-size: 1rem;
+	line-height: 29px;
+	width: 6rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button-13:hover {
+	background-color: #f7fafa;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.location-ans {
+	width: 20rem;
 }
