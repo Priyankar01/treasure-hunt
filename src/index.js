@@ -7,7 +7,7 @@ import App from './App';
 ReactDOM.createRoot(document.getElementById('root')).render( // Use createRoot instead of ReactDOM.render
   <Router>
     <Routes>
-      <Route path=".vercel.app/location/:id" element={<App />} /> {/* Wrap Route inside Routes */}
+      <Route path="vercel.app/location/:id" element={<App />} /> {/* Wrap Route inside Routes */}
     </Routes>
   </Router>,
   document.getElementById('root')
